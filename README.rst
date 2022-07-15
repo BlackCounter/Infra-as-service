@@ -96,6 +96,18 @@ A script is a file with a list of command to execute on the remote host, each on
 
 A Inventory file is a .ini file with a list of hosts with the folling format:
 
+In your ~/.ssh/config file you can add this lines for example:
+.. code-block:: ini
+
+   Host sever1.localdomain.local
+   HostName 192.26.32.32
+   Port 2200
+
+   Host server2.localdomain.local
+   HostName 192.26.32.32
+   Port 8888
+
+Then use these aliases in your Ansible inventory:
 .. code-block:: ini
 
    [servers]
