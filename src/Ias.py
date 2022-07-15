@@ -35,12 +35,12 @@ except:
     print ("Error, missing 'paramiko', try: 'sudo pip install paramiko'")
     sys.exit(EXIT_FAILURE)
 
-PACKAGE="rduty"
+PACKAGE="Ias"
 VERSION="0.4.1"
-RELEASE_DATE="20200120"
-AUTHOR="Gabriele Giorgetti"
-EMAIL="<g.giorgetti@gmail.com>"
-URL="https://github.com/gabgio/rduty"
+RELEASE_DATE="20220120"
+AUTHOR="Saeed Bahmanabadi"
+EMAIL="<bahmanabadi.s@gmail.com>"
+URL="https://github.com/BlackCounter/Infra-as-service.git"
 
 
 # max size for script #1MB

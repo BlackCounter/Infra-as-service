@@ -1,6 +1,6 @@
 #!/usr/bin/make -s
 
-PACKAGE=rduty
+PACKAGE=Ias
 VERSION=0.4.1
 
 # install architecture-independent files
